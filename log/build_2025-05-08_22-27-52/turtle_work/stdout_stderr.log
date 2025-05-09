@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtle_work/turtle_work.egg-info
+writing ../../build/turtle_work/turtle_work.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_work/turtle_work.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_work/turtle_work.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_work/turtle_work.egg-info/requires.txt
+writing top-level names to ../../build/turtle_work/turtle_work.egg-info/top_level.txt
+writing manifest file '../../build/turtle_work/turtle_work.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_work/turtle_work.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_work/turtle_work.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ed/homework/build/turtle_work/build
+creating /home/ed/homework/build/turtle_work/build/lib
+creating /home/ed/homework/build/turtle_work/build/lib/turtle_work
+copying turtle_work/turtle_node.py -> /home/ed/homework/build/turtle_work/build/lib/turtle_work
+copying turtle_work/__init__.py -> /home/ed/homework/build/turtle_work/build/lib/turtle_work
+running install
+running install_lib
+creating /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work
+copying /home/ed/homework/build/turtle_work/build/lib/turtle_work/turtle_node.py -> /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work
+copying /home/ed/homework/build/turtle_work/build/lib/turtle_work/__init__.py -> /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work
+byte-compiling /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work/turtle_node.py to turtle_node.cpython-310.pyc
+byte-compiling /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ed/homework/install/turtle_work/share/ament_index
+creating /home/ed/homework/install/turtle_work/share/ament_index/resource_index
+creating /home/ed/homework/install/turtle_work/share/ament_index/resource_index/packages
+copying resource/turtle_work -> /home/ed/homework/install/turtle_work/share/ament_index/resource_index/packages
+copying package.xml -> /home/ed/homework/install/turtle_work/share/turtle_work
+running install_egg_info
+Copying ../../build/turtle_work/turtle_work.egg-info to /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_work script to /home/ed/homework/install/turtle_work/lib/turtle_work
+writing list of installed files to '/home/ed/homework/build/turtle_work/install.log'

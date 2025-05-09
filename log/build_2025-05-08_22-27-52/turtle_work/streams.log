@@ -1,0 +1,37 @@
+[0.763s] Invoking command in '/home/ed/homework/src/turtle_work': PYTHONPATH=/home/ed/homework/build/turtle_work/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ed/homework/install/turtle_work/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_work build --build-base /home/ed/homework/build/turtle_work/build install --record /home/ed/homework/build/turtle_work/install.log --single-version-externally-managed install_data
+[0.978s] running egg_info
+[0.979s] creating ../../build/turtle_work/turtle_work.egg-info
+[0.979s] writing ../../build/turtle_work/turtle_work.egg-info/PKG-INFO
+[0.979s] writing dependency_links to ../../build/turtle_work/turtle_work.egg-info/dependency_links.txt
+[0.980s] writing entry points to ../../build/turtle_work/turtle_work.egg-info/entry_points.txt
+[0.980s] writing requirements to ../../build/turtle_work/turtle_work.egg-info/requires.txt
+[0.980s] writing top-level names to ../../build/turtle_work/turtle_work.egg-info/top_level.txt
+[0.981s] writing manifest file '../../build/turtle_work/turtle_work.egg-info/SOURCES.txt'
+[0.983s] reading manifest file '../../build/turtle_work/turtle_work.egg-info/SOURCES.txt'
+[0.984s] writing manifest file '../../build/turtle_work/turtle_work.egg-info/SOURCES.txt'
+[0.984s] running build
+[0.984s] running build_py
+[0.984s] creating /home/ed/homework/build/turtle_work/build
+[0.985s] creating /home/ed/homework/build/turtle_work/build/lib
+[0.985s] creating /home/ed/homework/build/turtle_work/build/lib/turtle_work
+[0.985s] copying turtle_work/turtle_node.py -> /home/ed/homework/build/turtle_work/build/lib/turtle_work
+[0.985s] copying turtle_work/__init__.py -> /home/ed/homework/build/turtle_work/build/lib/turtle_work
+[0.985s] running install
+[0.986s] running install_lib
+[0.986s] creating /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work
+[0.987s] copying /home/ed/homework/build/turtle_work/build/lib/turtle_work/turtle_node.py -> /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work
+[0.987s] copying /home/ed/homework/build/turtle_work/build/lib/turtle_work/__init__.py -> /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work
+[0.987s] byte-compiling /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work/turtle_node.py to turtle_node.cpython-310.pyc
+[0.992s] byte-compiling /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work/__init__.py to __init__.cpython-310.pyc
+[0.992s] running install_data
+[0.992s] creating /home/ed/homework/install/turtle_work/share/ament_index
+[0.992s] creating /home/ed/homework/install/turtle_work/share/ament_index/resource_index
+[0.993s] creating /home/ed/homework/install/turtle_work/share/ament_index/resource_index/packages
+[0.993s] copying resource/turtle_work -> /home/ed/homework/install/turtle_work/share/ament_index/resource_index/packages
+[0.993s] copying package.xml -> /home/ed/homework/install/turtle_work/share/turtle_work
+[0.993s] running install_egg_info
+[0.995s] Copying ../../build/turtle_work/turtle_work.egg-info to /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work-0.0.0-py3.10.egg-info
+[1.007s] running install_scripts
+[1.023s] Installing turtle_work script to /home/ed/homework/install/turtle_work/lib/turtle_work
+[1.024s] writing list of installed files to '/home/ed/homework/build/turtle_work/install.log'
+[1.051s] Invoked command in '/home/ed/homework/src/turtle_work' returned '0': PYTHONPATH=/home/ed/homework/build/turtle_work/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ed/homework/install/turtle_work/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_work build --build-base /home/ed/homework/build/turtle_work/build install --record /home/ed/homework/build/turtle_work/install.log --single-version-externally-managed install_data

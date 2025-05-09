@@ -1,0 +1,24 @@
+[0.602s] Invoking command in '/home/ed/homework/src/turtle_work': PYTHONPATH=/home/ed/homework/build/turtle_work/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ed/homework/install/turtle_work/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_work build --build-base /home/ed/homework/build/turtle_work/build install --record /home/ed/homework/build/turtle_work/install.log --single-version-externally-managed install_data
+[0.791s] running egg_info
+[0.793s] writing ../../build/turtle_work/turtle_work.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ../../build/turtle_work/turtle_work.egg-info/dependency_links.txt
+[0.794s] writing entry points to ../../build/turtle_work/turtle_work.egg-info/entry_points.txt
+[0.795s] writing requirements to ../../build/turtle_work/turtle_work.egg-info/requires.txt
+[0.795s] writing top-level names to ../../build/turtle_work/turtle_work.egg-info/top_level.txt
+[0.797s] reading manifest file '../../build/turtle_work/turtle_work.egg-info/SOURCES.txt'
+[0.800s] writing manifest file '../../build/turtle_work/turtle_work.egg-info/SOURCES.txt'
+[0.800s] running build
+[0.800s] running build_py
+[0.800s] copying turtle_work/turtle_node.py -> /home/ed/homework/build/turtle_work/build/lib/turtle_work
+[0.800s] running install
+[0.800s] running install_lib
+[0.802s] copying /home/ed/homework/build/turtle_work/build/lib/turtle_work/turtle_node.py -> /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work
+[0.802s] byte-compiling /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work/turtle_node.py to turtle_node.cpython-310.pyc
+[0.805s] running install_data
+[0.805s] running install_egg_info
+[0.808s] removing '/home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work-0.0.0-py3.10.egg-info' (and everything under it)
+[0.808s] Copying ../../build/turtle_work/turtle_work.egg-info to /home/ed/homework/install/turtle_work/lib/python3.10/site-packages/turtle_work-0.0.0-py3.10.egg-info
+[0.809s] running install_scripts
+[0.834s] Installing turtle_node script to /home/ed/homework/install/turtle_work/lib/turtle_work
+[0.839s] writing list of installed files to '/home/ed/homework/build/turtle_work/install.log'
+[0.863s] Invoked command in '/home/ed/homework/src/turtle_work' returned '0': PYTHONPATH=/home/ed/homework/build/turtle_work/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ed/homework/install/turtle_work/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_work build --build-base /home/ed/homework/build/turtle_work/build install --record /home/ed/homework/build/turtle_work/install.log --single-version-externally-managed install_data
