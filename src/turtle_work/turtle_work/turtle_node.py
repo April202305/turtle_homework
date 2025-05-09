@@ -126,11 +126,25 @@ class TurtleHunter(Node):
         if not self.master_pose:
             return
 
-        # If no current target, select the closest turtle
-        if not self.current_target:
-            self.current_target = self.find_closest_turtle()
-            if not self.current_target:
-                return
+        # Always check for closest turtle, even if we have a current target
+        closest_turtle = self.find_closest_turtle()
+        
+        # If we have a current target, check if there's a closer one
+        if self.current_target and closest_turtle:
+            current_distance = self.calculate_distance(self.master_pose, self.current_target['pose'])
+            closest_distance = self.calculate_distance(self.master_pose, closest_turtle['pose'])
+            
+            # If closest turtle is significantly closer (e.g., 0.5 units closer), switch target
+            if closest_distance < current_distance - 0.5:
+                self.get_logger().info(f"Switching target from {self.current_target['name']} to {closest_turtle['name']}")
+                self.get_logger().info(f"Old distance: {current_distance:.2f}, New distance: {closest_distance:.2f}")
+                self.current_target = closest_turtle
+        # If no current target, set the closest turtle as target
+        elif closest_turtle:
+            self.current_target = closest_turtle
+            self.get_logger().info(f"Setting new target: {closest_turtle['name']}")
+        else:
+            return
 
         target = self.current_target['pose']
         dx = target.x - self.master_pose.x
